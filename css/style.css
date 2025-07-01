@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #111;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,3 +36,43 @@ body {
   margin-left: 200px;
   padding-left: 20px;
 }
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+
+img {
+  opacity: 0.5;
+}
+
+
+
+/* vertical navigation */ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+
+li a {
+  display: block;
+  background-color: #dddddd;
+}
+/* vertical navigation */
+
+
+
+/* horizontal navigation */
+li {
+  display: inline;
+}
+/* horizontal navigation */
